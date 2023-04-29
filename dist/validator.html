@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>XML Tools</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <script defer src="js/xmllint.js" type="application/javascript"></script>
+        <script defer src="js/validator.js" type="application/javascript"></script>
+    </head>
+    <body>
+
+    <h1>XML Validator</h1>
+    <!-- See: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file -->
+    Upload your <b>XML</b> File:<br/>
+    <input id="inputXML" accept="text/xml" type="file" name="xml_upload"/><br/><br/>
+    Upload your <b>XSD</b> file:<br/>
+    <input id="inputXSD" accept="text/xsd" type="file" name="xsd_upload"/><br/><br />
+    <button id="btnValidate">Validate</button>
+    <div id="output">
+
+    </div>
+    </body>
+</html>

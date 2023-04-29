@@ -1,0 +1,21 @@
+{
+  "name": "typescript_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "tsc --watch",
+    "watch-sass": "sass src/sass:dist/css --watch",
+    "watch-http": "vite serve dist",
+    "watch": "concurrently --kill-others -c black.bgGreen.bold,black.bgBlue.bold,black.bgMagenta.bold \"npm:watch-*\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "sass": "^1.60.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
+  }
+}

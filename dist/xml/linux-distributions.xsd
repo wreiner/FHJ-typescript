@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="wrns"
+            xmlns="wrns"
+            elementFormDefault="qualified">
+    <xsd:element name="linux-distributions">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="linux-distribution" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:all>
+                            <xsd:element name="package-type" type="xsd:string" maxOccurs="1" />
+                            <xsd:element name="versioning-model" type="xsd:string" maxOccurs="1" />
+                            <xsd:element name="first-release" type="xsd:date" maxOccurs="1" />
+                            <xsd:element name="website-url" type="xsd:string" maxOccurs="1" />
+                        </xsd:all>
+                        <xsd:attribute name="name" type="xsd:string" />
+                        <xsd:attribute name="active" type="xsd:boolean" use="optional" default="true" />
+                        <xsd:attribute name="icon-url" type="xsd:string" use="optional" default="https://cdn0.iconfinder.com/data/icons/tab-bar-ios-and-wp8-vector-icons/48/linux-512.png" />
+                        <xsd:attribute name="latest-stable-release" type="xsd:string" use="optional" default="unkown" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="url" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

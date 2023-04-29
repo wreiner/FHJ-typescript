@@ -1,0 +1,11 @@
+<!ELEMENT linux-distributions (linux-distribution*)>
+<!ATTLIST linux-distributions url CDATA #IMPLIED>
+    <!ELEMENT linux-distribution (package-type,versioning-model,first-release,website-url)>
+    <!ATTLIST linux-distribution name CDATA #IMPLIED>
+    <!ATTLIST linux-distribution active CDATA #IMPLIED>
+    <!ATTLIST linux-distribution icon-url CDATA #IMPLIED>
+    <!ATTLIST linux-distribution latest-stable-release CDATA #IMPLIED>
+        <!ELEMENT package-type (#PCDATA)>
+        <!ELEMENT versioning-model (#PCDATA)>
+        <!ELEMENT first-release (#PCDATA)>
+        <!ELEMENT website-url (#PCDATA)>

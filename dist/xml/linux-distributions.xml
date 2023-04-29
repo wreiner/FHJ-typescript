@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE linux-distributions SYSTEM "linux-distributions.dtd">
+<linux-distributions
+    url="https://www.pngall.com/wp-content/uploads/5/Linux-PNG-Pic.png">
+    <linux-distribution
+        name="Mandriva"
+        active="false"
+        icon-url="https://commons.wikimedia.org/wiki/File:Mandriva_logo.png"
+        latest-stable-release="2011">
+        <package-type>rpm</package-type>
+        <versioning-model>Standard</versioning-model>
+        <first-release>1998-07-23</first-release>
+        <website-url>https://web.archive.org/web/20150523021945/http://www.mandriva.com/en/products-services/mbs/technical-specifications/</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="Fedora"
+        icon-url="https://commons.wikimedia.org/wiki/File:Fedora_logo.svg"
+        latest-stable-release="37">
+        <package-type>rpm</package-type>
+        <versioning-model>Standard</versioning-model>
+        <first-release>2003-11-06</first-release>
+        <website-url>https://getfedora.org</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="Debian"
+        icon-url="https://commons.wikimedia.org/wiki/File:Debian_logo.png"
+        latest-stable-release="11.2">
+        <package-type>deb</package-type>
+        <versioning-model>Standard</versioning-model>
+        <first-release>1993-09-15</first-release>
+        <website-url>https://www.debian.org</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="Red Hat Enterprise Linux (RHEL)"
+        icon-url="https://de.m.wikipedia.org/wiki/Datei:Red_Hat_logo.svg"
+        latest-stable-release="9.1">
+        <package-type>rpm</package-type>
+        <versioning-model>Standard</versioning-model>
+        <first-release>2000-02-22</first-release>
+        <website-url>https://www.redhat.com/rhel/</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="Gentoo"
+        icon-url="https://commons.wikimedia.org/wiki/File:Gentoo_Logo_Vector.svg">
+        <package-type>ebuild</package-type>
+        <versioning-model>Rolling</versioning-model>
+        <first-release>2002-03-31</first-release>
+        <website-url>https://www.gentoo.org</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="CentOS"
+        icon-url="https://commons.wikimedia.org/wiki/File:CentOS_logo.svg">
+        <package-type>rpm</package-type>
+        <versioning-model>Rolling</versioning-model>
+        <first-release>2004-05-14</first-release>
+        <website-url>https://www.centos.org</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="Ubuntu"
+        icon-url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ubuntu_and_Ubuntu_Server_Icon.png/48px-Ubuntu_and_Ubuntu_Server_Icon.png"
+        latest-stable-release="22.10 (Kinetic Kudu)">
+        <package-type>deb</package-type>
+        <versioning-model>Standard</versioning-model>
+        <first-release>2004-10-20</first-release>
+        <website-url>https://www.ubuntu.com</website-url>
+    </linux-distribution>
+    <linux-distribution
+        name="OpenSUSE Tumbelweed"
+        icon-url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/OpenSUSE_Tumbleweed_green_logo.svg/160px-OpenSUSE_Tumbleweed_green_logo.svg.png">
+        <package-type>rpm</package-type>
+        <versioning-model>Rolling</versioning-model>
+        <first-release>2005-10-01</first-release>
+        <website-url>https://www.opensuse.org</website-url>
+    </linux-distribution>
+</linux-distributions>

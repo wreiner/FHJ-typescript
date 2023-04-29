@@ -1,0 +1,13 @@
+.my-element {
+  color: hotpink;
+  width: 100%;
+  overflow: hidden;
+}
+
+.my-other-element {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
